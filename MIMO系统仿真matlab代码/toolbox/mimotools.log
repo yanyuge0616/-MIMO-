@@ -1,0 +1,47 @@
+MIMOTOOLS 2.2.0 log file, 
+(c) 2001 - 2003 Kamil Anis, anisk@feld.cvut.cz, 
+This file is created automatically during the simulation run. 
+
+[GLOBAL SETTINGS] 
+	 Log reported: 				 2022.5.17 at 13:30:0 
+	 Echo: 					 on 
+	 Symbol energy: 			 1.00 
+	 Samples per symbol: 			 4 
+	 Symbol time duration: 			 0.00 [s]
+	 MIMO system setup: 			 2 x 2 
+	 Sampling period: 			 2.50e-05 [s] 
+	 Constellation expansion factor: 	 1.41 
+	 Transmitted signal power: 		 10000.00 
+	 Enable detection timing: 		 0 
+
+[SOURCE SECTION] 
+	 Number of data frames: 		 20 
+	 Number of symbols per frame: 		 10 
+	 Number of splashing zeros: 		 3 
+	 Message data pattern: 			 rand 
+	 Constant message value: 		 1 
+
+[ENCODER SECTION] 
+	 Encoding scheme: 			 att 
+	 Code states: 				 8 
+	 Number of data symbols: 		 4 
+
+[MODULATOR SECTION] 
+	 Modulation pulse shape: 		 rrc 
+	 Modulation pulse shortening: 		 8 x Ts
+	 Modulation pulse roll-off: 		 0.40 
+
+[CHANNEL SECTION] 
+	 Channel fading type: 			 rayleigh 
+
+[ESTIMATOR SECTION] 
+	 Estimator has been temporarily removed in version 2.2.0. 
+	 CSI knowledge: 			 perfect 
+
+[COUNTER SECTION] 
+	 Total elapsed time: 			 0 hrs 0 mins 0.0 sec 
+	 Total symbols transmitted: 		 200 
+
+[PERFORMANCE MEASUREMENT STATISTICS] 
+	 SNR [dB] 	 Errors 	 SER 
+	 4.00 		   31 		 -9.24E+00 
